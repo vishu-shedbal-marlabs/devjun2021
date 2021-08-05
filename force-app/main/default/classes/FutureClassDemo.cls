@@ -1,7 +1,7 @@
 public class FutureClassDemo {
     @future
     public static void futureCall() {
-        System.debug('MyFutureMethodClass.futureCall() ran at: ' + System.now());
+          System.debug('MyFutureMethodClass.futureCall() ran at: ' + System.now());
     }
 
     @future
